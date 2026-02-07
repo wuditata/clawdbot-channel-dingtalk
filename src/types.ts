@@ -145,6 +145,10 @@ export interface SendMessageOptions {
   useMarkdown?: boolean;
   atUserId?: string | null;
   log?: any;
+  mediaPath?: string;
+  filePath?: string;
+  mediaUrl?: string;
+  mediaType?: 'image' | 'voice' | 'video' | 'file';
 }
 
 /**
